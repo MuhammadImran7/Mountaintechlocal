@@ -23,13 +23,11 @@
   </template>
   
   <script setup>
-
   import bgImage from '@/assets/images/HomePageHeroSectionBG.webp';
-
   import left1 from '@/assets/images/left1.webp';
   import left2 from '@/assets/images/left2.webp';
-  import left3 from '@/assets/images/left3.webp';
-  import left4 from '@/assets/images/left4.webp';
+  import left3 from '@/assets/images/left3.webp';''
+  import left4 from '@/assets/images/left4.webp'; 
   import right1 from '@/assets/images/right1.webp';
   import right2 from '@/assets/images/right2.webp';
   import right3 from '@/assets/images/right3.webp';
@@ -41,7 +39,7 @@
     height: 100vh; 
     background-size: cover;
     background-position: center;
-  }
+  } 
   .top-react{
     left: 7rem;
     top: 12rem;

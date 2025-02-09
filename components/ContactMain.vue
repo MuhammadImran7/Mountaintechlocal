@@ -49,7 +49,7 @@
         <div class="mtech-contact mt-12">
           <div class="space-y-3">
               <div class="flex gap-5">
-                <label class="mtech-contact-label lg:w-1/2 w-full ">
+                <label class="mtech-contact-label lg:w-1/2 w-full">
                 First Name*
                 <input v-model="form.firstName" type="text" name="firstName" placeholder="Muhammad" class="w-full p-2 border" required>
               </label>

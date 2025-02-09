@@ -58,7 +58,7 @@ const slug = route.params.slug;
 // Find the service based on the slug
 const service = services[slug]; // Assuming services is an object where keys are slugs
 
-// Create a computed property for filtered images
+// Create a computed property for filtered images 
 const filteredImages = computed(() => {
   return Object.entries(service.images)
     .filter(([key]) => key !== 'bg' && key !== 'laptop' && key !== 'Vuelogo' && key !== 'react')

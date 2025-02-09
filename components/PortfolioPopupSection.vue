@@ -26,6 +26,10 @@
           </a>
         </div>
       </div>
+
+       
+
+        
   
       <!-- Modal -->
       <transition name="fade">
@@ -39,7 +43,7 @@
               <p class="text-gray-700">{{ modalImage.description }}</p>
             </div>
           </div>
-        </div>
+        </div> 
       </transition>
     </div>
   </template>

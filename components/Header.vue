@@ -52,22 +52,22 @@
           <li>
             <nuxt-link to="/contact" class="nav-item ">Contact</nuxt-link>
           </li>
-        </ul>
+        </ul> 
       </nav>
-    </div>
+    </div>    
   </header>
 </template>
 
 <script setup>
 import { ref } from 'vue';
 import homePageLogo from '~/assets/images/homePageLogo.webp';
-
+ 
 // State for menu visibility
 const isOpen = ref(false);
 
 // State for dropdown visibility
 const dropdownOpen = ref(false);
-
+ 
 // Function to toggle menu
 const toggleMenu = () => {
   isOpen.value = !isOpen.value;
