@@ -227,12 +227,12 @@ export const services = {
       
     // Add more services as needed
   };
-  let Vuelogo = '';
-try {
-  Vuelogo = require('@/assets/images/backendImages/vstuuio.webp');
-} catch (e) {
-  console.error('Image not found:', e);
-  Vuelogo = '~/assets/images/backendImages/phpstorm.webp'; // Set a default image here
-}
+//   let Vuelogo = '';
+// try {
+//   Vuelogo = require('@/assets/images/backendImages/vstuuio.webp');
+// } catch (e) {
+//   console.error('Image not found:', e);
+//   Vuelogo = '~/assets/images/backendImages/phpstorm.webp'; // Set a default image here
+// }
 
   
