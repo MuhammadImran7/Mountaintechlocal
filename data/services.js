@@ -11,7 +11,7 @@ import frontendBootstrap from '~/assets/images/FrontendImages/bootstrap.webp';
 
 // Import images for the backend service
 import backendBg from '~/assets/images/frontendbgimg.webp';
-import backendLaptop from '~/assets/images/backendImages/backendlaptop.webp';
+import backendlaptop from '~/assets/images/backendImages/backendlaptop.webp';
 import backendVuelogo from '~/assets/images/backendImages/vstuuio.webp';
 import backendReact from '~/assets/images/backendImages/phpstorm.webp';
 import backendAngular from '~/assets/images/backendImages/laravel.webp';
@@ -102,7 +102,7 @@ export const services = {
       lastheading: 'Empower your business with our transformative backend solutions!',
       images: {
         bg: backendBg,
-        laptop: backendLaptop,
+        laptop: backendlaptop,
         Vuelogo: backendVuelogo,
         react: backendReact,
         angular: backendAngular,
